@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A533AFFB2BA3458D0081CF58 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A533AFFA2BA3458D0081CF58 /* MainTabView.swift */; };
 		A5DC75652BA3425C002AE278 /* TicTocCloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DC75642BA3425C002AE278 /* TicTocCloneApp.swift */; };
 		A5DC75672BA3425C002AE278 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DC75662BA3425C002AE278 /* ContentView.swift */; };
 		A5DC75692BA3425D002AE278 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5DC75682BA3425D002AE278 /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A533AFFA2BA3458D0081CF58 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		A5DC75612BA3425C002AE278 /* TicTocClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TicTocClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5DC75642BA3425C002AE278 /* TicTocCloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTocCloneApp.swift; sourceTree = "<group>"; };
 		A5DC75662BA3425C002AE278 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -71,6 +73,131 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A533AFE92BA344940081CF58 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		A533AFEB2BA3449B0081CF58 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A533AFEC2BA3449D0081CF58 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A533AFED2BA3449F0081CF58 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				A5DC75642BA3425C002AE278 /* TicTocCloneApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		A533AFEE2BA344BD0081CF58 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A533AFEF2BA344BE0081CF58 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				A533AFF92BA344F90081CF58 /* Auth */,
+				A533AFF82BA344F70081CF58 /* Comments */,
+				A533AFF72BA344F50081CF58 /* Components */,
+				A533AFF62BA344F40081CF58 /* Feed */,
+				A533AFF52BA344F20081CF58 /* Notifications */,
+				A533AFF42BA344F10081CF58 /* Profile */,
+				A533AFF32BA344EF0081CF58 /* Root */,
+				A533AFF22BA344EE0081CF58 /* Search */,
+				A533AFF12BA344EC0081CF58 /* TabBar */,
+				A533AFF02BA344E40081CF58 /* UploadMedia */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		A533AFF02BA344E40081CF58 /* UploadMedia */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UploadMedia;
+			sourceTree = "<group>";
+		};
+		A533AFF12BA344EC0081CF58 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				A533AFFA2BA3458D0081CF58 /* MainTabView.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		A533AFF22BA344EE0081CF58 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		A533AFF32BA344EF0081CF58 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				A5DC75662BA3425C002AE278 /* ContentView.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		A533AFF42BA344F10081CF58 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		A533AFF52BA344F20081CF58 /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		A533AFF62BA344F40081CF58 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		A533AFF72BA344F50081CF58 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		A533AFF82BA344F70081CF58 /* Comments */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Comments;
+			sourceTree = "<group>";
+		};
+		A533AFF92BA344F90081CF58 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
 		A5DC75582BA3425C002AE278 = {
 			isa = PBXGroup;
 			children = (
@@ -94,8 +221,12 @@
 		A5DC75632BA3425C002AE278 /* TicTocClone */ = {
 			isa = PBXGroup;
 			children = (
-				A5DC75642BA3425C002AE278 /* TicTocCloneApp.swift */,
-				A5DC75662BA3425C002AE278 /* ContentView.swift */,
+				A533AFED2BA3449F0081CF58 /* App */,
+				A533AFEF2BA344BE0081CF58 /* Core */,
+				A533AFEE2BA344BD0081CF58 /* Extensions */,
+				A533AFEC2BA3449D0081CF58 /* Model */,
+				A533AFEB2BA3449B0081CF58 /* Services */,
+				A533AFE92BA344940081CF58 /* Utils */,
 				A5DC75682BA3425D002AE278 /* Assets.xcassets */,
 				A5DC756A2BA3425D002AE278 /* Preview Content */,
 			);
@@ -259,6 +390,7 @@
 			files = (
 				A5DC75672BA3425C002AE278 /* ContentView.swift in Sources */,
 				A5DC75652BA3425C002AE278 /* TicTocCloneApp.swift in Sources */,
+				A533AFFB2BA3458D0081CF58 /* MainTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
