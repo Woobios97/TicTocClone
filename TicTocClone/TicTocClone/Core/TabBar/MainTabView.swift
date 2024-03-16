@@ -37,7 +37,7 @@ struct MainTabView: View {
             Text("Upload Post")
                 .tabItem { Image(systemName: "plus") }
 
-            Text("Notifications")
+            NotificationsView()
                 .tabItem {
                     VStack {
                         Image(systemName: selectedTab == 3 ? "heart.fill" : "heart")
@@ -48,7 +48,7 @@ struct MainTabView: View {
                 .onAppear { selectedTab = 3 }
                 .tag(3)
 
-            Text("Profile")
+            CurrentUserProfileView()
                 .tabItem {
                     VStack {
                         Image(systemName: selectedTab == 4 ? "person.fill" : "person")
