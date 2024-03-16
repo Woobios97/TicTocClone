@@ -10,6 +10,7 @@
 		A533AFFB2BA3458D0081CF58 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A533AFFA2BA3458D0081CF58 /* MainTabView.swift */; };
 		A533AFFD2BA34A960081CF58 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A533AFFC2BA34A960081CF58 /* FeedView.swift */; };
 		A533AFFF2BA34BAD0081CF58 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A533AFFE2BA34BAD0081CF58 /* FeedCell.swift */; };
+		A57158C72BA58DF40049E366 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57158C62BA58DF40049E366 /* ExploreView.swift */; };
 		A5DC75652BA3425C002AE278 /* TicTocCloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DC75642BA3425C002AE278 /* TicTocCloneApp.swift */; };
 		A5DC75672BA3425C002AE278 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DC75662BA3425C002AE278 /* ContentView.swift */; };
 		A5DC75692BA3425D002AE278 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5DC75682BA3425D002AE278 /* Assets.xcassets */; };
@@ -40,6 +41,7 @@
 		A533AFFA2BA3458D0081CF58 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		A533AFFC2BA34A960081CF58 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
 		A533AFFE2BA34BAD0081CF58 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		A57158C62BA58DF40049E366 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ExploreView.swift; path = TicTocClone/Core/ExploreView.swift; sourceTree = SOURCE_ROOT; };
 		A5DC75612BA3425C002AE278 /* TicTocClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TicTocClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5DC75642BA3425C002AE278 /* TicTocCloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTocCloneApp.swift; sourceTree = "<group>"; };
 		A5DC75662BA3425C002AE278 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -148,6 +150,7 @@
 		A533AFF22BA344EE0081CF58 /* Search */ = {
 			isa = PBXGroup;
 			children = (
+				A57158C62BA58DF40049E366 /* ExploreView.swift */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -398,6 +401,7 @@
 				A533AFFF2BA34BAD0081CF58 /* FeedCell.swift in Sources */,
 				A5DC75672BA3425C002AE278 /* ContentView.swift in Sources */,
 				A5DC75652BA3425C002AE278 /* TicTocCloneApp.swift in Sources */,
+				A57158C72BA58DF40049E366 /* ExploreView.swift in Sources */,
 				A533AFFB2BA3458D0081CF58 /* MainTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
