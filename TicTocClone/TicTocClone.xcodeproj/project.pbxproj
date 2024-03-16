@@ -14,6 +14,10 @@
 		A57158CB2BA58E580049E366 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57158CA2BA58E580049E366 /* UserCell.swift */; };
 		A59500CA2BA59170009803DA /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59500C92BA59170009803DA /* NotificationsView.swift */; };
 		A59500CC2BA59179009803DA /* NotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59500CB2BA59179009803DA /* NotificationCell.swift */; };
+		A59500CE2BA594C5009803DA /* CurrentUserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59500CD2BA594C5009803DA /* CurrentUserProfileView.swift */; };
+		A59500D02BA5952C009803DA /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59500CF2BA5952C009803DA /* ProfileHeaderView.swift */; };
+		A59500D22BA59536009803DA /* PostGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59500D12BA59536009803DA /* PostGridView.swift */; };
+		A59500D62BA596F3009803DA /* UserStatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59500D52BA596F3009803DA /* UserStatView.swift */; };
 		A5DC75652BA3425C002AE278 /* TicTocCloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DC75642BA3425C002AE278 /* TicTocCloneApp.swift */; };
 		A5DC75672BA3425C002AE278 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DC75662BA3425C002AE278 /* ContentView.swift */; };
 		A5DC75692BA3425D002AE278 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5DC75682BA3425D002AE278 /* Assets.xcassets */; };
@@ -48,6 +52,10 @@
 		A57158CA2BA58E580049E366 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 		A59500C92BA59170009803DA /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
 		A59500CB2BA59179009803DA /* NotificationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCell.swift; sourceTree = "<group>"; };
+		A59500CD2BA594C5009803DA /* CurrentUserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentUserProfileView.swift; sourceTree = "<group>"; };
+		A59500CF2BA5952C009803DA /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
+		A59500D12BA59536009803DA /* PostGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostGridView.swift; sourceTree = "<group>"; };
+		A59500D52BA596F3009803DA /* UserStatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStatView.swift; sourceTree = "<group>"; };
 		A5DC75612BA3425C002AE278 /* TicTocClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TicTocClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5DC75642BA3425C002AE278 /* TicTocCloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTocCloneApp.swift; sourceTree = "<group>"; };
 		A5DC75662BA3425C002AE278 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -173,6 +181,9 @@
 		A533AFF42BA344F10081CF58 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				A59500D32BA596CA009803DA /* Components */,
+				A59500D42BA596D2009803DA /* View */,
+				A59500CD2BA594C5009803DA /* CurrentUserProfileView.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -214,6 +225,23 @@
 			children = (
 			);
 			path = Auth;
+			sourceTree = "<group>";
+		};
+		A59500D32BA596CA009803DA /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				A59500CF2BA5952C009803DA /* ProfileHeaderView.swift */,
+				A59500D52BA596F3009803DA /* UserStatView.swift */,
+				A59500D12BA59536009803DA /* PostGridView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		A59500D42BA596D2009803DA /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		A5DC75582BA3425C002AE278 = {
@@ -408,11 +436,15 @@
 			files = (
 				A533AFFD2BA34A960081CF58 /* FeedView.swift in Sources */,
 				A59500CC2BA59179009803DA /* NotificationCell.swift in Sources */,
+				A59500D02BA5952C009803DA /* ProfileHeaderView.swift in Sources */,
+				A59500D62BA596F3009803DA /* UserStatView.swift in Sources */,
 				A533AFFF2BA34BAD0081CF58 /* FeedCell.swift in Sources */,
 				A5DC75672BA3425C002AE278 /* ContentView.swift in Sources */,
 				A5DC75652BA3425C002AE278 /* TicTocCloneApp.swift in Sources */,
 				A57158C92BA58E510049E366 /* ExploreView.swift in Sources */,
 				A533AFFB2BA3458D0081CF58 /* MainTabView.swift in Sources */,
+				A59500D22BA59536009803DA /* PostGridView.swift in Sources */,
+				A59500CE2BA594C5009803DA /* CurrentUserProfileView.swift in Sources */,
 				A57158CB2BA58E580049E366 /* UserCell.swift in Sources */,
 				A59500CA2BA59170009803DA /* NotificationsView.swift in Sources */,
 			);
